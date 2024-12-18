@@ -1,0 +1,138 @@
+.container{
+    width: 400px;
+    height: 100px;
+    background-color: grey;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        background-color: lightblue;
+    }
+    
+}
+@media screen and (width >= 600px) and (width <= 1000px) {
+    .container0>p{
+        font-size: 18px;
+    } 
+ }
+
+.container1{
+    gap: 20px;
+}
+@media screen and (min-width: 480px) {
+    .container1{
+        display: flex;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    h1{
+        color: green;
+    }
+}
+
+.img>img{
+    width: 500px;
+}
+@media screen and (max-width: 400px) {
+    .img>img{
+        display: none;
+    }
+}
+
+.container2{
+    width: 400px;
+    height: 100px;
+    background-color: chocolate;
+}
+@media screen and (min-width: 1024px) {
+    .container2{
+        padding: 20px;
+    }
+}
+
+header{
+    font-size: 40px;
+    background-color: blue;
+}
+@media screen and (width >= 600px) and (width <= 1200px) {
+    header{
+        background-color: lightgray;
+    }
+}
+
+.container3>p{
+    font-size: 20px;
+}
+@media screen and (max-width: 400px) {
+    .container3>p{
+        font-size: 16px;
+    }
+}
+
+.container4{
+    border: 2px solid;
+}
+@media screen and (width >= 768px) and (width <= 1200px) {
+    .container4{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+.container5>img{
+    width: 400px;
+}
+@media screen and (max-width: 600px) {
+    .container5>img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    h2{
+        font-size: 24px;
+    }
+}
+
+a{
+    color: black;
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    a{
+        color: blue;
+    }
+}
+
+.container7{
+    width: 400px;
+    height: 100px;
+}
+@media screen and (min-width: 1200px ) {
+    .container7{
+        border: 2px solid;
+    }
+}
+
+.container8>p{
+    font-size: 30px;
+    background-color: cadetblue;
+    width: fit-content;
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .container8>p{
+        width: 250px;
+    }
+}
+
+.container9{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+@media screen and (min-width: 600px) {
+    .container9{
+        display: flex;
+        flex-direction: row;
+    }
+}
